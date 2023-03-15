@@ -31,14 +31,26 @@ h1 {
     background-color: green;
 }
 .box-64-64-64 {
-    background-color: rgb(64,64,64, .5);
+    background-color: rgb(64,64,64);
 }
 .box-171-238-7 {
-    background-color: rgb(171,238-7);
+    background-color: rgb(171,238,7);
+}
+.box-218-56-21 {
+background-color: rgb(218,56,21)
+}
+.box-128-237-31 {
+    background-color: rgb(128, 237, 31);
 }
 .box-14FAC3 {
     background-color: #14FAC3;
 }
-.box-F5370F {
-    background-color: #F5370f;
+.box-B51FED {
+    background-color: #B51FED;
+}
+.box-63D3FD {
+    background-color: #63D3FD;
+}
+.box-E3B227 {
+    background-color: #E3B227;
 }
