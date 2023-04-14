@@ -67,6 +67,11 @@ img {
     display: block;
     margin-top: 20px;
 }
+.star-style {
+background-color: transparent;
+    color: gold;
+    
+}
 /* .add-cart-2 {
     display: flex;
     justify-content: center;
