@@ -1,0 +1,60 @@
+.table-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+    border-radius: 20px;
+}
+th,td {
+    border: 1px solid white;
+    padding: 10px 25px;
+    text-align: center;
+}
+.th-gold2 {
+    background-color: rgb(11, 178, 31);
+    color: white;
+}
+.th.gold3 {
+    background-color: rgb(13, 131, 228);
+    color: white;
+}
+.th-gold4 {
+    background-color: rgb(238, 122, 15);
+    color: white;
+}
+.th-gold1 {
+    border-top-right-radius: 20px;
+    background-color: goldenrod;
+    color: white;
+}
+.x-style {
+    color: rgb(228, 22,22);
+}
+.th-1 {
+    background-color: bisque
+}
+.bg-darckyan {
+    background-color: darkcyan;
+    color: white;
+}
+.bg-darckyan1 {
+    border-bottom-left-radius: 20px;
+    background-color: darkcyan;
+    color: white;
+}
+.th-paquete {
+    border-top-left-radius: 20px;
+    background-color: darkcyan;
+    color: white;
+}
+.th-1 {
+    background-color: rgba(184, 180, 180, 0.158);
+}
+.th-2 {
+    border-bottom-left-radius: 20px;
+    background-color: rgba(184, 180,180, 0.158);
+}
