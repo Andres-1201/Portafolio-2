@@ -4,11 +4,11 @@
     font-family: 'Times New Roman', Times, serif;
 }
 nav {
-    background-color: rgb(64, 64, 64);
+    background-color: rgb(83, 209, 244);
     height: 70px;
 }
 nav ul {
-    background-color: rgb(64, 64, 64);
+    background-color: rgb(83, 209, 244);
     list-style: none;
     position: absolute;
     width: 100%;
