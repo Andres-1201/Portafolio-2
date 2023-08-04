@@ -1,20 +1,19 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 header {
-    background-color: goldenrod;
+    background-color: darkcyan;
     width: 100%;
     height: 100px;
     display: grid;
-    grid-template: "logo menu" 100px /
+    grid-template:"logo menu" 100px /
                     150px 1fr;
-
 }
 .logo {
     grid-area: logo;
-    background-color: rgb(245, 237, 12);
+    background-color: rgb(67,210,0);
     width: 100%;
     height: 100%;
 }
@@ -30,21 +29,19 @@ header {
     column-gap: 80px;
     row-gap: 40px;
     display: grid;
-    grid-template:"img-principal img-principal img-principal img-principal img-principal" 600px 
-                  "empty-left    article-1     article-2     article-3     empty-right"    500px 
-                  "empty-left    article-4     article-5     article-6     empty-right"    500px /
-                   1fr           350px         350px         350px           1fr;
-                    
+    grid-template: "img-principal img-principal img-principal img-principal img-principal" 600px 
+                   "empty-left    article-1     article-2     article-3     empty-right" 500px 
+                   "empty-left    article-4     article-5     article-6     empty-right" 500px /
+                    1fr           350px         350px         350px         1fr;
 }
 .img-principal {
     grid-area: img-principal;
     width: 100%;
     height: 100%;
     background-color: darkcyan;
-  
 }
 .article {
-    width: 350px;
+    width: 100%;
     height: 350px;
     background-color: rgb(64, 64, 64);
 }
@@ -64,7 +61,7 @@ header {
     grid-area: article-5;
 }
 .article-6 {
-    grid-area: artilce-6;
+    grid-area: article-6;
 }
 .style-box {
     color: white;
@@ -73,4 +70,11 @@ header {
     align-items: center;
     font-size: 2em;
     font-weight: 900;
+}
+.style-img-article {
+    height: 350px;
+}
+.style-texto-article {
+    line-height: 1.5em;
+    text-align: justify;
 }
