@@ -12,10 +12,10 @@ class Automovil {
     }
 };
 
-let img = "imagenes/Ford-titanium.webp";
-let img1 = "imagenes/ford-scape.webp";
-let img2 = "imagenes/peugeot.webp";
-let img3 = "imagenes/peugeot2.webp";
+let img = "imag/Ford-titanium.webp";
+let img1 = "imag/ford-scape.webp";
+let img2 = "imag/peugeot.webp";
+let img3 = "imag/peugeot2.webp";
 
 let auto1 = new Automovil("Ford Fiesta", "1.6 Titanium Mecanico", 41900000, img, 2016, "81.000" , "Envigado - Atioquia " );
 let auto2 = new Automovil("Ford Escape", "2.0 Titanium", 78000000, img1, 2016, "30.000" , "Engativa - Bogotá - D.C." );
